@@ -1,1 +1,61 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --font-display: 'Pliant', sans-serif;
+  --font-body: 'Open Sans', sans-serif;
+  --color-background: #f3f1eb;
+  --color-surface: #f7f7f5;
+  --color-text: #111111;
+  --color-muted: #5e5e57;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-optical-sizing: auto;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+button,
+a {
+  color: inherit;
+}
+
+.page {
+  display: grid;
+  gap: 1.5rem;
+  align-content: start;
+}
+
+.page__header {
+  display: grid;
+  gap: 0.9rem;
+  padding: 2rem;
+  background: #ffffff;
+  box-shadow: 0 20px 32px rgba(15, 15, 15, 0.06);
+}
+
+.page__header h1 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.page__header p {
+  margin: 0;
+  max-width: 46rem;
+  line-height: 1.75;
+  color: var(--color-muted);
+}

@@ -1,0 +1,26 @@
+.content-section {
+  display: grid;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: #ffffff;
+  box-shadow: 0 20px 32px rgba(15, 15, 15, 0.06);
+}
+
+h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  display: grid;
+  gap: 0.6rem;
+  padding-left: 1.1rem;
+}

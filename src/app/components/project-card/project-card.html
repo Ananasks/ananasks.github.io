@@ -1,0 +1,14 @@
+<article class="project-card">
+  <div class="project-card__thumbnail" aria-hidden="true">
+    <span>{{ item().thumbnailLabel }}</span>
+  </div>
+
+  <div class="project-card__body">
+    <h2>{{ item().title }}</h2>
+    <p>{{ item().description }}</p>
+  </div>
+
+  <a [href]="item().href" target="_blank" rel="noreferrer">
+    {{ ctaLabel() }}
+  </a>
+</article>

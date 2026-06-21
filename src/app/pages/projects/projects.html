@@ -1,0 +1,15 @@
+<section class="page">
+  <header class="page__header">
+    <h1>{{ copy().projects.title }}</h1>
+
+    @for (paragraph of copy().projects.intro; track paragraph) {
+      <p>{{ paragraph }}</p>
+    }
+  </header>
+
+  <div class="project-grid">
+    @for (item of copy().projects.items; track item.href) {
+      <app-project-card [item]="item" [ctaLabel]="copy().projects.viewProjectLabel" />
+    }
+  </div>
+</section>

@@ -1,0 +1,22 @@
+<article class="timeline-item">
+  <div class="timeline-item__rail" aria-hidden="true">
+    <span class="timeline-item__dot"></span>
+  </div>
+
+  <div class="timeline-item__main">
+    <p class="timeline-item__date">{{ entry().date }}</p>
+
+    <div class="timeline-item__content">
+      <h2>{{ entry().title }}</h2>
+      <p>{{ entry().description }}</p>
+
+      @if (entry().details?.length) {
+        <ul>
+          @for (detail of entry().details; track detail) {
+            <li>{{ detail }}</li>
+          }
+        </ul>
+        }
+    </div>
+  </div>
+</article>

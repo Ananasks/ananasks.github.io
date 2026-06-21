@@ -1,0 +1,15 @@
+<section class="page">
+  <header class="page__header">
+    <h1>{{ copy().cv.title }}</h1>
+
+    @for (paragraph of copy().cv.intro; track paragraph) {
+      <p>{{ paragraph }}</p>
+    }
+  </header>
+
+  <div class="timeline">
+    @for (entry of copy().cv.entries; track entry.date + entry.title) {
+      <app-timeline-item [entry]="entry" />
+    }
+  </div>
+</section>

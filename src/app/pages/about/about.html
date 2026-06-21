@@ -1,0 +1,15 @@
+<section class="page">
+  <header class="page__header">
+    <h1>{{ copy().about.title }}</h1>
+
+    @for (paragraph of copy().about.intro; track paragraph) {
+      <p>{{ paragraph }}</p>
+    }
+  </header>
+
+  <div class="page__sections">
+    @for (section of copy().about.sections; track section.heading) {
+      <app-content-section [section]="section" />
+    }
+  </div>
+</section>

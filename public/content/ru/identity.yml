@@ -1,11 +1,11 @@
-name: Alex North
-role: Продуктовый дизайнер и frontend-разработчик
+name: Анастасия Ермохина
+role: Python-разработчица и Data Scientist
 resumeLabel: Сохранить резюме (PDF)
 languageLabel: Язык
 resumeHref: /resume-placeholder.pdf
-photoAlt: Плейсхолдер профиля Alex North
+photoAlt: Плейсхолдер профиля Анастасия Ермохина
 photoSrc:
-photoInitials: AN
+photoInitials: AE
 nav:
   about: Обо мне
   cv: Резюме

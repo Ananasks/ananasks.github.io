@@ -1,11 +1,11 @@
-name: Alex North
-role: Product designer and frontend engineer
+name: Anastasia Ermokhina
+role: Python-developer and Data Scientist
 resumeLabel: Save resume (PDF)
 languageLabel: Language
 resumeHref: /resume-placeholder.pdf
-photoAlt: Profile placeholder for Alex North
+photoAlt: Profile placeholder for Anastasia Ermokhina
 photoSrc:
-photoInitials: AN
+photoInitials: AE
 nav:
   about: About me
   cv: CV

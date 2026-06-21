@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Identity Template",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "role",
+    "resumeLabel",
+    "languageLabel",
+    "resumeHref",
+    "photoAlt",
+    "photoSrc",
+    "photoInitials",
+    "nav"
+  ],
+  "properties": {
+    "name": { "type": "string" },
+    "role": { "type": "string" },
+    "resumeLabel": { "type": "string" },
+    "languageLabel": { "type": "string" },
+    "resumeHref": { "type": "string" },
+    "photoAlt": { "type": "string" },
+    "photoSrc": { "type": "string" },
+    "photoInitials": { "type": "string" },
+    "nav": { "type": "string" }
+  }
+}

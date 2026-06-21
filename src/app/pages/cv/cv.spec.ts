@@ -1,5 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
+import { PortfolioContentRepository } from '../../services/portfolio-content-repository';
+import { createPortfolioContentRepositoryStub } from '../../services/portfolio-content-repository.stub';
 import { Cv } from './cv';
 
 describe('Cv', () => {
@@ -8,6 +10,12 @@ describe('Cv', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [Cv],
+      providers: [
+        {
+          provide: PortfolioContentRepository,
+          useValue: createPortfolioContentRepositoryStub(),
+        },
+      ],
     }).compileComponents();
 
     fixture = TestBed.createComponent(Cv);

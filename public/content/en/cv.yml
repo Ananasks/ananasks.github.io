@@ -1,0 +1,18 @@
+title: CV
+intro:
+  - A concise timeline of selected work, roles, and studies.
+entries:
+  - date: May 2024
+    title: Senior Product Designer
+    description: Led redesign work for a multi-product SaaS platform with a focus on navigation clarity and design system adoption.
+    details:
+      - Introduced shared UI patterns
+      - Reduced page-level visual noise
+  - date: January 2022
+    title: Frontend Engineer
+    description: Built Angular interfaces for internal tools, portfolio sites, and lightweight content systems.
+    details:
+      - Worked across routing, state, and component architecture
+  - date: September 2019
+    title: Design Studies
+    description: Focused on visual communication, editorial systems, and interface fundamentals.

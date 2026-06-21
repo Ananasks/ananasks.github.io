@@ -1,0 +1,12 @@
+title: CONTACTS
+intro:
+  - I am available for selected freelance work, in-house product roles, and design system consulting.
+sections:
+  - heading: REACH OUT
+    paragraphs:
+      - "Email: hello@example.com"
+      - "GitHub: github.com/example"
+      - "Location: Europe, remote-friendly"
+  - heading: WORKING STYLE
+    paragraphs:
+      - I prefer small teams, direct communication, and clearly scoped product problems.

@@ -1,0 +1,17 @@
+title: ПРОЕКТЫ
+intro:
+  - Небольшая подборка концептов, экспериментов и репозиториев, связанных с реальными продуктами.
+viewProjectLabel: Открыть репозиторий
+items:
+  - title: Quiet Grid
+    description: Минималистичная система дашбордов с сильной иерархией, большим количеством воздуха и нейтральной стилистикой компонентов.
+    href: https://github.com/example/quiet-grid
+    thumbnailLabel: QG
+  - title: Mono Notes
+    description: Сфокусированный интерфейс для заметок с модульными секциями контента и простыми keyboard-first сценариями.
+    href: https://github.com/example/mono-notes
+    thumbnailLabel: MN
+  - title: Nord Portfolio
+    description: Стартовый шаблон портфолио с редакционной версткой, переиспользуемыми секциями и простым сопровождением.
+    href: https://github.com/example/nord-portfolio
+    thumbnailLabel: NP

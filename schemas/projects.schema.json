@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Projects Content",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["title", "intro", "viewProjectLabel", "items"],
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "intro": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "viewProjectLabel": {
+      "type": "string"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["title", "description", "href", "thumbnailLabel"],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "href": {
+            "type": "string"
+          },
+          "thumbnailLabel": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

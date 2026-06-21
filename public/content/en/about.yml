@@ -1,0 +1,16 @@
+title: ABOUT ME
+intro:
+  - I shape digital products that feel quiet, focused, and easy to trust.
+  - My work usually sits between product thinking, interface systems, and frontend implementation.
+sections:
+  - heading: APPROACH
+    paragraphs:
+      - I prefer clear structure, reduced visual noise, and interfaces that explain themselves. The best portfolio pieces often come from disciplined choices rather than extra decoration.
+      - In teams, I move comfortably between design direction, UI implementation, and content refinement.
+  - heading: WHAT I VALUE
+    paragraphs:
+      - Consistency, legibility, and a calm user experience matter more to me than novelty for its own sake.
+    items:
+      - Thoughtful systems over one-off screens
+      - Readable components over clever abstractions
+      - Steady collaboration over performative process

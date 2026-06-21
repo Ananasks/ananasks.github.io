@@ -1,9 +1,13 @@
 <div class="app-shell">
   <aside class="sidebar">
     <div class="sidebar__top">
-      <div class="profile-image" aria-hidden="true">
-        <span>AN</span>
-      </div>
+      @if (copy().shell.photoSrc) {
+        <img class="profile-image profile-image--photo" [src]="copy().shell.photoSrc!" [alt]="copy().shell.photoAlt" />
+      } @else {
+        <div class="profile-image" aria-hidden="true">
+          <span>{{ copy().shell.photoInitials }}</span>
+        </div>
+      }
 
       <div class="profile-copy">
         <p class="profile-name">{{ copy().shell.name }}</p>
@@ -25,7 +29,7 @@
     </nav>
 
     <div class="sidebar__bottom">
-      <a class="resume-link" href="/resume-placeholder.pdf" download>
+      <a class="resume-link" [href]="copy().shell.resumeHref" download>
         {{ copy().shell.resumeLabel }}
       </a>
 

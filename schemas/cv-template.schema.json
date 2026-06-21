@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CV Template",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["title", "intro", "entries"],
+  "properties": {
+    "title": { "type": "string" },
+    "intro": { "type": "string" },
+    "entries": { "type": "string" }
+  }
+}

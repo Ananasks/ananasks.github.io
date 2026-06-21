@@ -1,7 +1,8 @@
 import { computed, Injectable, signal } from '@angular/core';
 
-import { NAV_ITEMS, PORTFOLIO_COPY } from '../data/portfolio-content';
+import { NAV_ITEMS } from '../data/portfolio-content';
 import { Language, NavItem } from '../models/portfolio';
+import { PortfolioContentRepository } from './portfolio-content-repository';
 
 @Injectable({ providedIn: 'root' })
 export class PortfolioStore {
@@ -11,7 +12,10 @@ export class PortfolioStore {
   private readonly languageState = signal<Language>('en');
 
   readonly language = this.languageState.asReadonly();
-  readonly copy = computed(() => PORTFOLIO_COPY[this.languageState()]);
+
+  constructor(private readonly repository: PortfolioContentRepository) {}
+
+  readonly copy = computed(() => this.repository.content()[this.languageState()]);
 
   setLanguage(language: Language): void {
     this.languageState.set(language);

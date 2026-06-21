@@ -5,6 +5,8 @@ import { provideRouter, Router } from '@angular/router';
 
 import { App } from './app';
 import { routes } from './app.routes';
+import { PortfolioContentRepository } from './services/portfolio-content-repository';
+import { createPortfolioContentRepositoryStub } from './services/portfolio-content-repository.stub';
 
 describe('App', () => {
   let fixture: ComponentFixture<App>;
@@ -14,7 +16,14 @@ describe('App', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [App],
-      providers: [provideRouter(routes), provideLocationMocks()],
+      providers: [
+        provideRouter(routes),
+        provideLocationMocks(),
+        {
+          provide: PortfolioContentRepository,
+          useValue: createPortfolioContentRepositoryStub(),
+        },
+      ],
     }).compileComponents();
 
     router = TestBed.inject(Router);

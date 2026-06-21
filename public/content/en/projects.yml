@@ -1,0 +1,17 @@
+title: PROJECTS
+intro:
+  - A small selection of concept work, experiments, and production-facing repositories.
+viewProjectLabel: Open repository
+items:
+  - title: Quiet Grid
+    description: A minimal dashboard system exploring strong hierarchy, whitespace, and neutral component styling.
+    href: https://github.com/example/quiet-grid
+    thumbnailLabel: QG
+  - title: Mono Notes
+    description: A focused note-taking interface with modular content sections and simple keyboard-first flows.
+    href: https://github.com/example/mono-notes
+    thumbnailLabel: MN
+  - title: Nord Portfolio
+    description: A portfolio starter that emphasizes editorial layouts, reusable sections, and low-friction maintenance.
+    href: https://github.com/example/nord-portfolio
+    thumbnailLabel: NP

@@ -37,6 +37,10 @@ export interface PortfolioTranslation {
     readonly role: string;
     readonly resumeLabel: string;
     readonly languageLabel: string;
+    readonly resumeHref: string;
+    readonly photoAlt: string;
+    readonly photoSrc: string | null;
+    readonly photoInitials: string;
     readonly nav: Record<NavItem['key'], string>;
   };
   readonly about: PageCopy;

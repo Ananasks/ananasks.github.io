@@ -1,0 +1,13 @@
+name: Alex North
+role: Продуктовый дизайнер и frontend-разработчик
+resumeLabel: Сохранить резюме (PDF)
+languageLabel: Язык
+resumeHref: /resume-placeholder.pdf
+photoAlt: Плейсхолдер профиля Alex North
+photoSrc:
+photoInitials: AN
+nav:
+  about: Обо мне
+  cv: Резюме
+  projects: Проекты
+  contacts: Контакты

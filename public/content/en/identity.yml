@@ -1,0 +1,13 @@
+name: Alex North
+role: Product designer and frontend engineer
+resumeLabel: Save resume (PDF)
+languageLabel: Language
+resumeHref: /resume-placeholder.pdf
+photoAlt: Profile placeholder for Alex North
+photoSrc:
+photoInitials: AN
+nav:
+  about: About me
+  cv: CV
+  projects: Projects
+  contacts: Contacts

@@ -39,6 +39,11 @@
   box-shadow: 0 16px 30px rgba(15, 15, 15, 0.08);
 }
 
+.profile-image--photo {
+  display: block;
+  object-fit: cover;
+}
+
 .profile-image span {
   font-family: var(--font-display);
   font-size: 1.8rem;

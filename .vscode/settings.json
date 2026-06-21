@@ -1,0 +1,37 @@
+{
+  "yaml.schemas": {
+    "./schemas/identity.schema.json": [
+      "public/content/en/identity.yml",
+      "public/content/ru/identity.yml"
+    ],
+    "./schemas/about.schema.json": [
+      "public/content/en/about.yml",
+      "public/content/ru/about.yml"
+    ],
+    "./schemas/cv.schema.json": [
+      "public/content/en/cv.yml",
+      "public/content/ru/cv.yml"
+    ],
+    "./schemas/projects.schema.json": [
+      "public/content/en/projects.yml",
+      "public/content/ru/projects.yml"
+    ],
+    "./schemas/contacts.schema.json": [
+      "public/content/en/contacts.yml",
+      "public/content/ru/contacts.yml"
+    ],
+    "./schemas/identity-template.schema.json": [
+      "public/content/templates/identity_template.yml"
+    ],
+    "./schemas/page-template.schema.json": [
+      "public/content/templates/about_template.yml",
+      "public/content/templates/contacts_template.yml"
+    ],
+    "./schemas/cv-template.schema.json": [
+      "public/content/templates/cv_template.yml"
+    ],
+    "./schemas/projects-template.schema.json": [
+      "public/content/templates/projects_template.yml"
+    ]
+  }
+}
